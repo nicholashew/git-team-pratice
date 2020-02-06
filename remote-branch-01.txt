@@ -1,0 +1,9 @@
+let's create a local branch and push to remote
+
+```
+git checkout -b remote-branch-01
+```
+
+```
+git push -u origin remote-branch-01
+```
