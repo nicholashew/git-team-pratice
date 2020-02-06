@@ -1,5 +1,19 @@
 # git-team-pratice
 
+## How to push a new local branch to a remote Git repository
+
+1. Create a new branch.
+```
+git checkout -b remote-branch-01
+```
+
+2. Edit or add some file, for example create a new file 'remote-branch-01.txt'
+
+3. Push your branch to the remote repository.
+```
+git push -u origin remote-branch-01
+```
+
 ## How to rebase
 
 ### Work On A New Branch
