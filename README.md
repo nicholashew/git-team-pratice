@@ -14,6 +14,20 @@ git checkout -b remote-branch-01
 git push -u origin remote-branch-01
 ```
 
+## How to checkout a remote branch into new local branch 
+
+Assume there is a new remote branch `origin/Feature2020` was created by others, and it is not in your local git repo.
+
+First, fetch the remote branches, and now you will able to see the `origin/Feature2020` shown in your remote-branch list
+```
+git fetch origin
+```
+
+Next, you checkout to a local branch and work on it
+```
+git checkout -b Feature2020 origin/Feature2020
+```
+
 ## How to rebase
 
 ### Work On A New Branch
