@@ -28,7 +28,7 @@ Next, you checkout to a local branch and work on it
 git checkout -b Feature2020 origin/Feature2020
 ```
 
-## How to clean deleted remote branches from local
+## How to clean deleted remote branches from local git
 
 If the remote branches was deleted but still appear in your local project, and you would like internal housekeeping to cleans up those deleted branches
 
